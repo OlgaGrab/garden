@@ -1,0 +1,30 @@
+*
+{
+    margin: 0 
+}
+
+body {
+    max-width: 1360px;
+    margin: 0 auto;
+    font-family: arial;
+    font-size: 2 em;
+    line-height: 1,6 em;
+}
+
+header 
+{
+    background-image: url("trava.jpg");
+    background-position: center center;
+    background-size: cover;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify content: flex-start;
+    color: white;
+    text-shadow: 2px 3px #273d39;
+    font-family: arial;
+    padding-left: 10%;
+    size: 36px;
+    
+    
+}
