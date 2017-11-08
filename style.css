@@ -6,11 +6,12 @@
 body {
     max-width: 1360px;
     margin: 0 auto;
-    font-family: arial;
-    font-size: 2 em;
-    line-height: 1,6 em;
-}
-
+    font-family: system-ui;
+    font-size: 11pt;
+    line-height: normal;
+    background-image:url("background_square.jpg");
+   
+   }
 header 
 {
     background-image: url("trava.jpg");
@@ -18,13 +19,47 @@ header
     background-size: cover;
     height: 200px;
     display: flex;
-    align-items: center;
-    justify content: flex-start;
-    color: white;
     text-shadow: 2px 3px #273d39;
-    font-family: arial;
-    padding-left: 10%;
-    size: 36px;
     
+}
+header h1 {
+    font-size: 48pt;
+    color: gold;
+    justify-content: flex-start;
+    align-self: center;
+    padding-left: 10%;
+}
+header h2 { 
+    font-size: 16pt;
+    color: white;
+    justify-content: flex-end;
+    align-self: flex-end;
+    margin-bottom: 2%;
+    padding-left: -10%;
+} 
+article {
+    
+    
+}
+
+section {
+    
+}
+#design-selection
+{
+padding: 10px;
+justify-content: flex-start;
+
+}
+
+#design-selection {
+padding: 10px;
+justify-content: flex-end;  
+}
+    
+footer {
+    text-align: center;
+    background-color: lightblue;
+    background-repeat: repeat-x;
     
 }
